@@ -39,7 +39,30 @@ nav li:hover{
 
 .link_logo img {
 
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
     object-fit: cover;
 }
+
+.imagen_bg{
+
+    margin: 5px 0px 5px 0px;
+    width: 100%;
+    height: 100%;
+  
+    background-image: url(/ASSETS/IMG/foto_cv_d5.JPG);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.texto_i{
+
+   border-top: 3px solid #000000;
+   border-bottom: 3px solid #000000;
+   margin: 150px 0px 80px 10px;
+   color: #F2F2F2;
+   text-align: center;
+
+}
+
