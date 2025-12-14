@@ -1,7 +1,8 @@
 *{
     box-sizing: border-box;
-    padding: 0;
+    padding:0;
     margin: 0;
+   
 }
 
 /* LETRAS DE ENLACE NEGRAS Y SACAR EL SUBRAYADO */
@@ -100,6 +101,11 @@ background-color: #fcecf4;
 }
 
 .texto_udec, .texto_colegio, .texto_unab{
+
+    border-top: 2px solid #F2F2F2;
+}
+
+.infocap, .cflow, .enseña, .iec {
 
     border-top: 2px solid #F2F2F2;
 }
