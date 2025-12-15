@@ -112,11 +112,14 @@ background-color: #fcecf4;
 
 .imagen, .datos_contacto, .comentario{
 
-    width: 200px;
-    height: 200px;
-    border: 1px solid #000000;
+  background-color: #fcecf4;
+    /* border: 1px solid #000000; */
 }
 
+.recomendaciones{
+
+    background-color: #fcecf4;
+}
 .imagen_persona{
    
 
@@ -128,6 +131,11 @@ background-color: #fcecf4;
 
 .nombre_persona{
     
-    border: 1px solid #000000;
+    /* border: 1px solid #000000; */
 
+}
+
+.comentario {
+
+    width: 20rem;
 }
