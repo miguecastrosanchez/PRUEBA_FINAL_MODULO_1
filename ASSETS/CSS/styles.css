@@ -79,11 +79,6 @@ background-color: #fcecf4;
 
 }
 
-.colegio, .udec, .unab{
-
-    
-}
-
 .udec{
 
     border-left: 2px solid #F2F2F2 ;
@@ -115,17 +110,10 @@ background-color: #fcecf4;
     background-color: #fcecf4;
 }
 .imagen_persona{
-   
 
     border: 3px solid #000000;
     border-radius: 100%;
     
-
-}
-
-.nombre_persona{
-    
-    /* border: 1px solid #000000; */
 
 }
 
