@@ -47,7 +47,7 @@ nav li:hover{
 .fondo_main{
 
     
-    background-image: url(/ASSETS/IMG/foto_cv_d5.jpg);
+    background-image: url('/ASSETS/IMG/foto_cv_d5.png');
     background-size: cover;
     background-position: center;
   
