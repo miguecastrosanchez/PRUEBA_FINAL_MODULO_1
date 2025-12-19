@@ -25,7 +25,9 @@
 .boton_CV{
 
     
+    
     margin: 10px 40px 10px 40px;
+    padding: 5px;
     border-radius: 10px;
     background-color:#fcecf4;
     border: 2px solid #a8a6a6;
@@ -59,7 +61,9 @@
 .boton_dobbysport{
 
     
+    
     margin: 10px 40px 10px 40px;
+    padding: 5px;
     border-radius: 10px;
     background-color:#fcecf4;
     border: 2px solid #a8a6a6;
@@ -91,10 +95,11 @@
     
 }
 
-.boton_iguana{
+.boton_iguana {
 
     
     margin: 10px 40px 10px 40px;
+    padding: 5px;
     border-radius: 10px;
     background-color:#fcecf4;
     border: 2px solid #a8a6a6;
@@ -161,4 +166,15 @@ nav li:hover{
     max-width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+
+footer{
+
+    
+    margin-top:223px ;
+    background-color: #000000;
+    color: #F2F2F2;
+    
+    
 }
