@@ -2,18 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 .card_cv{
 
-    width: 200px;
-    height: 350px;    
+    
+    width: 400px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;    
     background-image: url('../IMG/CAP_CV3.png');
     background-size: cover;
     background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
+    border: 3px solid #c9c4c6;
+    border-radius: 10px;
+    
     
 }
 
@@ -26,16 +31,28 @@
     border: 2px solid #a8a6a6;
 }
 
+.boton_CV:hover{
+
+    
+    margin: 10px 40px 10px 40px;
+    border-radius: 10px;
+    background-color:#000000;
+    color: #ffffff;
+    border: 2px solid #a8a6a6;
+}
+
 .card_dobbysport{
 
-    width: 200px;
-    height: 350px;    
+    width: 400px;
+    height: 700px;    
     background-image: url('../IMG/PANT_DBS.png');
     background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: end;
+    border: 3px solid #c9c4c6;
+    border-radius: 10px;
     
 }
 
@@ -46,18 +63,31 @@
     border-radius: 10px;
     background-color:#fcecf4;
     border: 2px solid #a8a6a6;
+    
+}
+
+.boton_dobbysport:hover{
+
+    
+    margin: 10px 40px 10px 40px;
+    border-radius: 10px;
+    background-color:#000000;
+    color: #ffffff;
+    border: 2px solid #a8a6a6;
 }
 
 .card_iguana{
 
-    width: 200px;
-    height: 350px;    
+    width: 400px;
+    height: 700px;    
     background-image: url('../IMG/CAP_IGUANA.png');
     background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: end;
+    border: 3px solid #c9c4c6;
+    border-radius: 10px;
     
 }
 
@@ -68,4 +98,67 @@
     border-radius: 10px;
     background-color:#fcecf4;
     border: 2px solid #a8a6a6;
+}
+
+.boton_iguana:hover{
+
+    
+    margin: 10px 40px 10px 40px;
+    border-radius: 10px;
+    background-color:#000000;
+    color: #ffffff;
+    border: 2px solid #a8a6a6;
+}
+
+
+
+.cap_proyectos{
+
+    background-color: #fcecf4;
+}
+
+h1 {
+    font-size: 1.5rem;
+    letter-spacing: 1.5rem;
+    border-top: 2px solid #F2F2F2;
+    border-bottom: 2px solid #F2F2F2;
+}
+
+/* LETRAS DE ENLACE NEGRAS Y SACAR EL SUBRAYADO */
+
+.elem_nav_bar a{
+
+    color: #000000;
+    text-decoration: none;
+
+}
+
+/* AL ELEMENTO DE LA BARRA DE NAVEGACION (LISTA) AL COLOAR EL MOUSE SE GENERA UNA RAYA NEGRA */
+
+nav li:hover{
+    
+    border-bottom: 2px solid #000000;
+     
+ }
+
+/* COLOR DEL BORDE DE LA BARRA DE NAVEGACION */
+
+ .nav_bar{
+
+    border-bottom: 2px solid #F2F2F2;
+}
+
+/* AL ACERCAR EL MOUSE EL LOGO DE IG SE COLOCA NEGRO */
+
+.icono_instagram i:hover{
+
+    color: #000000;
+
+}
+
+.link_logo img {
+
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
 }
