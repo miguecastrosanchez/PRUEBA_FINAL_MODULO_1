@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card_cv{
+
+    width: 200px;
+    height: 350px;    
+    background-image: url('../IMG/CAP_CV3.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+
+.boton_CV{
+
+    
+    margin: 10px 40px 10px 40px;
+    border-radius: 10px;
+    background-color:#fcecf4;
+    border: 2px solid #a8a6a6;
+}
+
+.card_dobbysport{
+
+    width: 200px;
+    height: 350px;    
+    background-image: url('../IMG/PANT_DBS.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+
+.boton_dobbysport{
+
+    
+    margin: 10px 40px 10px 40px;
+    border-radius: 10px;
+    background-color:#fcecf4;
+    border: 2px solid #a8a6a6;
+}
+
+.card_iguana{
+
+    width: 200px;
+    height: 350px;    
+    background-image: url('../IMG/CAP_IGUANA.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+
+.boton_iguana{
+
+    
+    margin: 10px 40px 10px 40px;
+    border-radius: 10px;
+    background-color:#fcecf4;
+    border: 2px solid #a8a6a6;
+}
