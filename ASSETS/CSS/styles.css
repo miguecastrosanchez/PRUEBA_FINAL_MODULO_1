@@ -5,6 +5,10 @@
    
 }
 
+body{
+
+    contain: content;
+}
 /* LETRAS DE ENLACE NEGRAS Y SACAR EL SUBRAYADO */
 
 .elem_nav_bar a{

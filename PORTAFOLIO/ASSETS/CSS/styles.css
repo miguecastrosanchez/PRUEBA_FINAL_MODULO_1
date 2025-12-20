@@ -5,6 +5,11 @@
 
 }
 
+body{
+
+    contain: content;
+}
+
 .card_cv{
 
     
